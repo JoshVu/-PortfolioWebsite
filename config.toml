@@ -1,60 +1,30 @@
-baseurl         = ""
-theme           = "casper-two"
-languageCode    = "en-US"
-disqusShortname = ""
-paginate        = 6
-#SectionPagesMenu = "main"
+baseURL = ""
+title = "JoshVu"
+themesDir = "/themes"
+theme = "m10c"
 
 [params]
-  title       = "ThanhTungVu"
-  subtitle    = "Cyber Security"
+  author = "Josh Vu"
+  description = "Cyber Security"
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/gohugoio"
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/gohugoio"
 
-  cover       = "Header.jpeg"
-  description = "Everything about ThanhTung"
-  metaDescription = ""
-  googleAnalytics = ""
-  customCSS = []
-  RSSLink = ""
+  # Green theme
+  #[params.style]
+  #  darkestColor = "#315659"
+  #  darkColor = "#253031"
+  #  primaryColor = "#dad865"
+  #  lightColor = "#96a879"
+  #  lightestColor = "#fff"
 
-  twitterName = ""
-  fbName = "TTD1602"
-  githubName = ""
-
-  logo = ""
-  orgName = "EM"
-  orgWebsite = "https://www.telematika.org"
-  orgDescription = "Here is a description placeholder for your org"
-
-  author = "ThanhTungVu"
-  authorAvatar = "Profile Picture.jpg"
-  authorLocation = "Kensington, SYD"
-  authorWebsite = "https://eueung.github.io"
-  authorDescription = "Describe yourself.."
-
-  pageNotFoundTitle = "404 - Page not found"
-
-  #casper or caspertwo
-  singleViewStyle = "casper"
-
-[permalinks]
-  post = "/:slug/"
-
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 200
-
-[[menu.main]]
-  name = "Project"
-  url = "/tags/Project/"
-  weight = 100
-
-[[menu.main]]
-  name = "File"
-  url = "/categories/File/"
-  weight = 99
-
-[[menu.main]]
-  name = "External"
-  url = "https://google.com/"
-  weight = 95
+  # Red and black theme
+  #[params.style]
+  #  darkestColor = "#d35050"
+  #  darkColor = "#212121"
+  #  primaryColor = "#ffffff"
+  #  lightColor = "#a2a2a2"
+  #  lightestColor = "#d3d3d3"
