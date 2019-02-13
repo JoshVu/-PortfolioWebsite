@@ -1,7 +1,7 @@
 baseURL = "https://example.com"
 title = "Your title"
 themesDir = "themes/"
-theme = "m10c"
+theme = "hugo-theme-m10c"
 
 [params]
   author = "John Doe"
