@@ -1,6 +1,6 @@
 baseURL = "https://example.com"
 title = "Your title"
-themesDir = "themes/"
+themesDir = "../.."
 theme = "m10c"
 
 [params]
